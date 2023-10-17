@@ -1,0 +1,270 @@
+
+                                            ASSIGNMENT QUESTIONS CSS NO. 2
+                
+                                                       INDEX.HTML
+
+1. Create a navigation bar similar to the below-mentioned image. The navigation bar must Contain 5
+navigation links that are ProPerly PlaCed within the navigation bar using the CSS box model. The navigation
+items must Change their text Color on hover. <br>
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS ASSIGNMENT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar">
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
+<a href="#">Contact</a>
+<a href="#">Blog</a>
+<a href="#">Login</a>
+</div>
+</body>
+</html>
+
+ 2. Create a div 'entered with an image and paragraph similar to the image mentioned below.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div></div>
+    <h5>Course Name:PW Skills Full Stack Web Development</h5>
+</body>
+</html>
+
+3. Create a Navigation Bar similar to question1 for each navigation item used a different border style?
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS ASSIGNMENT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar">
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
+<a href="#">Contact</a>
+<a href="#">Blog</a>
+<a href="#">Login</a>
+</div>
+</body>
+</html>
+
+4. Create a simple webpage with an image and make the image circular using border-radius?
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
+
+5. 5.Create a simple blog website about Google fonts. The webpage must have the heading with “Oswald” font
+align center to the page, below the heading have an image oR Google fonts and a paragraph about Google
+fonts in font “Montserrat” paragraph font style should be“montserrat” font?
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>“Oswald”</h1>
+    <div></div>
+    <h2>Google Fonts</h2>
+    <h3>Whereas disregard and contempt for human rights have resulted</h3>
+</body>
+</html>
+
+6. . Create a simple website as mentioned in the below image. You can get the assets by visiting https://
+   pwskills.com/about-us. 
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>PW Skills' mission is to permeate through every student/professional's outlook towards jobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can Do It". We aim to do this by providing exceptional up skilling courses at affordable rates, while being tech-forward so anyone, anywhere can access and improve their ability to be successful in life.</p>   
+    <div></div>
+</body>
+</html>
+
+7. !DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <img class="courseImage" src="https://cdn.pwskills.com/assets/uploads/thumbnails/64215310af09d6aa495682f5.jpg"
+        alt=" PW SKills web development" />
+        <p><b>Course Name:</b> PW SKills web development</p>
+    </div>
+</body>
+</html>
+
+8. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled List</title>
+    <style>
+        li {
+        list-style-type: lower-roman;
+        }
+
+        body {
+            border: 2px solid black;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Requirements</h1>
+        <ul>
+        <li>System with minimum i3 processor or better.</li>
+        <li>At least 4 GB of RAM.</li>
+        <li>Working internet connection.</li>
+        <li>Dedication to learn</li>
+        </ul>
+    </body>
+    </html>
+
+                                                      Style.CSS
+1. * {
+    padding: o;
+    margin: 0;
+}
+
+   #navbar {
+    height: 40px;
+    background-color: rgb(112, 112, 240);
+}
+
+   a {
+    text-align: center;
+    margin-right: 100px;
+    background-color: rgb(112, 112, 240);
+    color: white;
+    text-align: center;
+
+2. div {
+    height:160px;
+    width: 300px;
+    background-image: url("pw.picture.jpg");
+    background-repeat: no-repeat;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 10%;
+}
+
+3.  * {
+    padding: o;
+    margin: 0;
+}
+   #navbar {
+    height: 40px;
+    background-color: rgb(112, 112, 240);
+}
+
+a {
+    text-align: center;
+    margin-right: 100px;
+    background-color: rgb(112, 112, 240);
+    color: white;
+    text-align: center;
+
+4. div {
+    background-image: url("pratik-chauhan-E4bycvNRRm8-unsplash.jpg");
+    width: 146px;
+    height: 180px;
+    box-sizing: border-box;
+    border: 5px black solid;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+5. h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+div {
+    height: 220px;
+    width: 200px;
+    background-image: url("oswald.jpg");
+}
+
+6. h1 {
+    text-align: center;
+    color: black;
+}
+
+div {
+    height: 500px;
+    width: 1000px;
+    background-image: url("aboutus.jpg");
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+body {
+    border: 10px solid black;
+} 
+
+ 7. .courseImage {
+height: 200px;
+width: 300px;
+border-radius: 20px;
+}
+
+div {
+    margin: 0 auto;
+    background-color: #f8c42e;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+div:hover {
+    opacity: 1;
+}
